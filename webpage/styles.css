@@ -1,0 +1,443 @@
+/*Eigenes CSS*/
+
+/* Generelle Farben
+
+Blau-Grün: 			#003a52
+Anthrazit:100%  #2e383d
+Anthrazit 75%:  #4C575C
+Anthrazit 30%:  #AAAFB2
+Anthrazit 5%:   #EFF0F0
+Hellblau:  			#63bfde
+
+*/
+
+body {
+  font-family:'lato';
+  font-weight:300;
+  color:#2e383d;
+  margin:0 0 0 0;
+  padding:0 0 3em 0;
+
+}
+
+h1 {
+  font-family:'lato';
+  font-weight:300;
+}
+
+h2 {
+  font-family:'lato';
+  font-weight:300;
+}
+
+
+.row {
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+
+
+/*Bilder*/
+
+
+div.mainpicture {
+	/*border-style: solid;
+	border-color: blue;*/
+	height:600px;
+
+	background-image: url("images/Header3.png");
+	background-repeat: no-repeat;
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+
+
+.logobild {
+display:block;
+/*border-style: solid;
+border-color:green;
+border-width:10px;*/
+padding:40px 40px 20px 20px;
+ margin-left: auto !important;
+ margin-right:0 !important;
+ background-color:white;
+ /* box-shadow:10px 10px 50px grey; */
+}
+
+.oberereihe {
+	padding-top: 0;
+}
+
+
+#coldcom {
+  text-align: center;
+  padding-top:2em;
+  padding-bottom:1.25em;
+  font-size: 4em;
+  /* background-color: white; */
+  /* font-family: 'josefin sans'; */
+}
+
+.zweitereihe {
+	text-align:center;
+	/* padding-top: 100px; */
+	font-weight:900 !important;
+	color:#003a52;
+
+}
+
+#erklaerung {
+	background-color:transparent;
+	/* box-shadow: 10px 10px 50px grey; */
+
+	font-size:25px;
+	/* text-shadow: 10px 10px 50px grey; */
+  font-style: italic;
+
+}
+
+
+#drittereihe {
+	padding-top:7em;
+
+}
+
+
+.headerbuttons{
+	color:#EFF0F0 !important;
+	margin-top:1em;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#003a52;
+	border-style:solid;
+	font-family: 'lato';
+	font-weight:300;
+	border-color:#003a52;
+	/* opacity: 0.8; */
+	box-shadow: 10px 10px 50px grey;
+	text-transform: uppercase;
+}
+.headerbuttons:hover {
+	color:black;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#2e383d;
+	border-style:solid;
+}
+
+.btn.headerbuttons {
+	border-radius:0;
+}
+
+
+
+
+/* Produktfelder  */
+
+
+.produkte {
+	/* margin-bottom:4em; */
+	/* background-color:red; */
+}
+
+.feld span {
+    bottom: 0;
+    width: 100%;
+    line-height: 2em;
+		font-size:2em;
+    text-align: center;
+		position: absolute; width: 100%; left: 0px; top: 12%; right: 0px;
+		color: transparent;
+}
+
+.feld span:hover {
+		color: black;
+}
+
+.col-sm-4.feld:hover {
+	background-color: lightgrey !important;
+}
+
+/*Über Uns-Sektion*/
+
+#ueberuns {
+	font-size:16px;
+	padding-top: 3em;
+	line-height: 2em;
+
+
+}
+
+#ueberuns-titel {
+	font-size: 25px;
+	text-align: center;
+
+}
+
+/*Claim*/
+
+.claim {
+	color:white;
+	font-size: 25px;
+	text-align: right;
+	padding-right:2em;
+	padding-top:2em;
+  height:10.71em;
+}
+
+
+
+#teambild {
+	/* padding-top:1em; */
+  margin-left:auto;
+  margin-right: auto;
+  width:100%;
+  padding: 0 1em ;
+  /* border:5px solid green; */
+
+
+	/* padding-left:2em; */
+}
+
+#ueberuns .col-sm-8 {
+  /* border:5px solid red; */
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+
+}
+
+.equal {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.row .informationstext {
+  height: 100%;
+  width:100%;
+}
+
+
+.loesungen {
+
+background-image: url("images/Schauglas.png");
+background-size:50%;
+background-position: center;
+background-repeat: no-repeat;
+background-color: #003a52;
+	color:white;
+	font-size: 25px;
+	text-align: center;
+	/* padding-top:3em; */
+border:2px solid #003a52;
+}
+
+.loesungen:hover {
+  background-color:  #4C575C;
+}
+
+.loesungen p{
+
+padding-top: 1.5em;
+/* position: absolute; width: 100%; left: 0px; bottom:0.5em; right: 0px; */
+text-align: center;
+}
+
+.claim {
+	background-color:#003a52;
+}
+
+.claim:hover {
+	background-color:#4C575C;
+}
+
+
+.kontaktformular {
+	padding-top:2em;
+
+}
+
+.kontaktdetails {
+	color:white;
+	background-color:#003a52 ;
+	/* background-color: #EFF0F0; */
+	text-align: right;
+	padding-right:2em;
+	padding-top:2em;
+
+}
+
+.kontaktdetails:hover {
+	background-color:#4C575C ;
+}
+
+#formular-überschrift {
+	/* text-align:center; */
+	padding-left:0.8em;
+  padding-bottom:4em;
+}
+
+
+#comments {
+	padding:0.7em 0 0 0.7em;
+	margin:0 0 0 1em;
+
+}
+
+.sendbutton {
+	font-size:15px;
+	color:white;
+	width:100%;
+	background-color:#003a52;
+
+	margin-top: 1.25em;
+}
+
+.kontaktreihe {
+	/* background-color:#EFF0F0; */
+	margin-top: 4em;
+	padding-right: 1em;
+
+}
+
+/*PRODUKTSEITEN*/
+
+#kategorien {
+	padding-top:2em;
+}
+
+
+#kategorien .col-sm-1 {
+	color:white;
+	text-align:center;
+	font-size:14px;
+	background-color: #003a52;
+
+}
+
+#kategorien .col-sm-1:hover {
+	background-color:#4C575C
+}
+
+#logoreihe {
+	text-align: center;
+}
+
+.navigationsbutton {
+
+	margin-left:100px;
+
+}
+
+.artikeldetails {
+	font-size:25px;
+	line-height:2em;
+}
+
+/* Dropdown */
+
+.dropbtn {
+    background-color: #003a52;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropper {
+    position: relative;
+    display: inline-block;
+}
+
+.dropper-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropper-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropper-content a:hover {
+
+  background-color: white
+
+}
+
+.dropper:hover .dropper-content {
+    display: block;
+}
+
+.dropper:hover .dropbtn {
+    background-color: #2e383d;
+}
+
+
+.informationstext {
+	font-size: 20px;
+  padding-top: 4em;
+  /* border:5px solid green; */
+}
+
+.infos{
+
+  padding:0 1em 0 2em !important;
+  /* border:5px solid green;
+  background-color: red; */
+}
+
+.row a{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+
+	border-color:transparent;
+}
+
+/*Trenner*/
+
+.trenner1 {
+	height:20px;
+	margin-top:4em;
+	margin-bottom:4em;
+	background: background: rgba(0,58,82,1);
+background: -moz-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,58,82,1)), color-stop(56%, rgba(76,87,92,1)), color-stop(100%, rgba(76,87,92,1)));
+background: -webkit-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: -o-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: linear-gradient(to right, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003a52', endColorstr='#4c575c', GradientType=1 );
+}
+
+.trenner2 {
+	height:20px;
+	margin-top:0;
+	margin-bottom:0;
+	background: background: rgba(0,58,82,1);
+background: -moz-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,58,82,1)), color-stop(56%, rgba(76,87,92,1)), color-stop(100%, rgba(76,87,92,1)));
+background: -webkit-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: -o-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+background: linear-gradient(to right, rgba(0,58,82,1) 0%, rgba(76,87,92,1) 56%, rgba(76,87,92,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003a52', endColorstr='#4c575c', GradientType=1 );
+}
